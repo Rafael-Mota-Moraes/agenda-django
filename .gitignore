@@ -37,6 +37,8 @@ db.sqlite3
 
 # File-based project format
 *.iws
+static/*
+media/*
 
 # IntelliJ
 out/
