@@ -30,6 +30,7 @@ db.sqlite3
 .idea/**/dynamic.xml
 .idea/**/uiDesigner.xml
 .idea/**/dbnavigator.xml
+local_settings.py
 
 # Gradle
 .idea/**/gradle.xml
