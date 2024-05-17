@@ -32,7 +32,8 @@ def search(request):
     ).order_by('-id')
     context = {
         'contacts': contacts,
-        'site_title': 'Pesquisa - '
+        'site_title': 'Pesquisa - ',
+        'search_value': search_value
     }
 
     return render(
