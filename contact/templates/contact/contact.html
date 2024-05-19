@@ -11,6 +11,7 @@
     <p><b>Created Date: </b>{{ contact.created_date }}</p>
     <p><b>Description: </b>{{ contact.description }}</p>
     <p><b>Category: </b>{{ contact.category.name }}</p>
+    <p><b>Owner: </b>{{ contact.owner }}</p>
 
     {% if contact.picture %}
       <p>
@@ -30,6 +31,7 @@
           <button class="btn btn-link btn-delete" type="submit">Delete</button>
         {% endif %}
       </form>
+      
     </div>
   </div>
 {% endblock content %}
